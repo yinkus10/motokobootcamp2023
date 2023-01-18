@@ -30,8 +30,8 @@ actor {
   };
   
   // Set the value of counter to n.
-  public func set_counter(n : Nat) : async () {
-    counter := n;
+  public func set_counter(b : Nat) : async () {
+    counter := b;
   };
   
 
